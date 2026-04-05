@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindGap — Support</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 680px;
+      margin: 60px auto;
+      padding: 0 24px 80px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    h1 { font-size: 2rem; margin-bottom: 4px; }
+    .subtitle { color: #666; margin-top: 0; margin-bottom: 40px; }
+    h2 { font-size: 1.1rem; margin-top: 40px; margin-bottom: 8px; }
+    p, li { color: #333; }
+    ul, ol { padding-left: 20px; }
+    a { color: #007aff; }
+    code {
+      background: #f2f2f7;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    footer { margin-top: 60px; color: #999; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+  <h1>MindGap Support</h1>
+  <p class="subtitle">Help & frequently asked questions</p>
+
+  <h2>How does MindGap work?</h2>
+  <p>
+    MindGap intercepts your habit of opening distracting apps by routing each
+    open through a brief countdown. You create a Home Screen Shortcut that
+    points to MindGap's URL for a target app. When you tap that shortcut,
+    MindGap shows how many times you've opened the app in the last 24 hours
+    and makes you wait that many seconds before you can continue.
+  </p>
+
+  <h2>Setting up a Shortcut</h2>
+  <ol>
+    <li>Open MindGap and tap <strong>+</strong> to add an app.</li>
+    <li>Tap the app's row — this copies its MindGap URL to your clipboard.</li>
+    <li>Open the <strong>Shortcuts</strong> app → tap <strong>+</strong> → <strong>Add Action</strong> → search <em>Open URLs</em> → paste the MindGap URL.</li>
+    <li>Tap the shortcut's name at the top → <strong>Add to Home Screen</strong> → name it after the real app → tap <strong>Add</strong>.</li>
+    <li>Remove the real app's icon from your Home Screen (long-press → <em>Remove from Home Screen</em>). It stays in your App Library.</li>
+    <li>From now on, use the new icon instead of the original.</li>
+  </ol>
+
+  <h2>The countdown seems wrong / shows 0</h2>
+  <p>
+    The countdown equals the number of times you've opened that app in the
+    last 24 hours. The first open of each day has no wait — that's intentional.
+    Each subsequent open adds one second.
+  </p>
+
+  <h2>How do I set a session limit?</h2>
+  <p>
+    Tap an app's row on the home screen, then tap <strong>Session limit</strong>
+    in the menu that appears. Choose a duration (1–60 minutes). MindGap will
+    send you a notification when the time is up, prompting another check-in.
+  </p>
+
+  <h2>I'm not receiving session-limit notifications</h2>
+  <ul>
+    <li>Go to <strong>Settings → MindGap → Notifications</strong> and make sure notifications are enabled.</li>
+    <li>Session-limit notifications are marked <em>Time Sensitive</em>, so they bypass Focus modes — but they still require notifications to be allowed.</li>
+    <li>Make sure you tapped <strong>Open [App]</strong> in the intervention screen. Notifications are only scheduled after you proceed.</li>
+  </ul>
+
+  <h2>Can I add an app that isn't in the suggestions list?</h2>
+  <p>
+    Yes. Tap <strong>+</strong>, scroll to the bottom of the suggestions, and
+    tap <strong>Add custom app</strong>. Enter the app's name and its URL scheme
+    (e.g. <code>spotify://</code>). You can find URL schemes for most apps with
+    a quick web search.
+  </p>
+
+  <h2>How do I remove a tracked app?</h2>
+  <p>
+    Swipe left on the app's row on the home screen and tap <strong>Delete</strong>.
+  </p>
+
+  <h2>Does MindGap collect any data?</h2>
+  <p>
+    No. Everything is stored locally on your device. MindGap has no server,
+    no account, and sends no data anywhere. See the full
+    <a href="https://s0sasaki.github.io/mindgap/PrivacyPolicy.html">Privacy Policy</a>.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Have a question or found a bug? Email us at
+    <a href="mailto:ssasaki2@illinois.edu">ssasaki2@illinois.edu</a>
+    and we'll get back to you as soon as possible.
+  </p>
+
+  <footer>
+    &copy; 2026 SS &mdash; MindGap
+  </footer>
+
+</body>
+</html>
